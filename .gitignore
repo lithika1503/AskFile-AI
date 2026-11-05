@@ -1,0 +1,50 @@
+# Python runtime
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment secrets
+.env
+.env.local
+
+# AskFile AI Storage (Databases, Uploads, Vector Indexes)
+storage/askfile.db
+storage/askfile.db-wal
+storage/askfile.db-shm
+storage/uploads/*
+!storage/uploads/.gitkeep
+storage/vector_db/*
+!storage/vector_db/.gitkeep
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+
+# Python environment and cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
